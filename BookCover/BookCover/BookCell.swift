@@ -17,3 +17,5 @@ class BookCell: UICollectionViewCell {
         selectedBackgroundView?.backgroundColor = .red
     }
 }
+
+// Collection Views call a method on the delegate to let our code know that a cell was selected. The method is called didSelectedItemAt, but we do not need to implement it if we want to trigger a Segue.
