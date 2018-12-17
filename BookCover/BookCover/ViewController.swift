@@ -14,7 +14,10 @@ class ViewController: UIViewController, UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        <#code#>
+        let cell = collectionItems.dequeueReusableCell(withReuseIdentifier: "bookCellIdentifier", for: indexPath) as! BookCell
+        let file = AppData.items[indexPath.item]
+        cell.bookCover.image = UIImage(named: file)
+        return cell
     }
     
     // because collection views cells are custome cells, we have to define our own subclass of UIViewCell to manage their content. 
