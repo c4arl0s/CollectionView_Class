@@ -30,12 +30,11 @@ class ViewController: UIViewController, UICollectionViewDataSource {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "bookCellIdentifier" {
             let controller = segue.destination as! DetailBookViewController
-            if let paths = collectionItems.indexPathsForSelectedItems {
-                let selectedCell = paths[0].item
-                controller.selected = selectedCell
-            }
+                if let paths = collectionItems.indexPathsForSelectedItems {
+                    let selectedCell = paths[0].item
+                    controller.selected = selectedCell
+                }
         }
     }
-
 }
 

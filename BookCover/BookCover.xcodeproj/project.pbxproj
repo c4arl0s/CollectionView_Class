@@ -104,13 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				8F33178721C7FC10000B3369 /* AppDelegate.swift */,
-				8F33178921C7FC10000B3369 /* ViewController.swift */,
-				8F3317B721C80286000B3369 /* ApplicationData.swift */,
-				8F3317B921C85A28000B3369 /* DetailBookViewController.swift */,
-				8F3317B521C80164000B3369 /* BookCell.swift */,
-				8F33178B21C7FC10000B3369 /* Main.storyboard */,
+				8F3317BD21C86C9F000B3369 /* Models */,
+				8F3317BB21C86C87000B3369 /* Controllers */,
+				8F3317BC21C86C8E000B3369 /* Views */,
 				8F33178E21C7FC20000B3369 /* Assets.xcassets */,
-				8F33179021C7FC20000B3369 /* LaunchScreen.storyboard */,
 				8F33179321C7FC20000B3369 /* Info.plist */,
 			);
 			path = BookCover;
@@ -132,6 +129,33 @@
 				8F3317A921C7FC20000B3369 /* Info.plist */,
 			);
 			path = BookCoverUITests;
+			sourceTree = "<group>";
+		};
+		8F3317BB21C86C87000B3369 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F33178921C7FC10000B3369 /* ViewController.swift */,
+				8F3317B921C85A28000B3369 /* DetailBookViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8F3317BC21C86C8E000B3369 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F3317B521C80164000B3369 /* BookCell.swift */,
+				8F33178B21C7FC10000B3369 /* Main.storyboard */,
+				8F33179021C7FC20000B3369 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F3317BD21C86C9F000B3369 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F3317B721C80286000B3369 /* ApplicationData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
