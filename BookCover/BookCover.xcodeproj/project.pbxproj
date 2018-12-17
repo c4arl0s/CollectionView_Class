@@ -16,6 +16,7 @@
 		8F3317A821C7FC20000B3369 /* BookCoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3317A721C7FC20000B3369 /* BookCoverUITests.swift */; };
 		8F3317B621C80164000B3369 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3317B521C80164000B3369 /* BookCell.swift */; };
 		8F3317B821C80286000B3369 /* ApplicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3317B721C80286000B3369 /* ApplicationData.swift */; };
+		8F3317BA21C85A28000B3369 /* DetailBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3317B921C85A28000B3369 /* DetailBookViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8F3317A921C7FC20000B3369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F3317B521C80164000B3369 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 		8F3317B721C80286000B3369 /* ApplicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationData.swift; sourceTree = "<group>"; };
+		8F3317B921C85A28000B3369 /* DetailBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBookViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				8F33178721C7FC10000B3369 /* AppDelegate.swift */,
 				8F33178921C7FC10000B3369 /* ViewController.swift */,
 				8F3317B721C80286000B3369 /* ApplicationData.swift */,
+				8F3317B921C85A28000B3369 /* DetailBookViewController.swift */,
 				8F3317B521C80164000B3369 /* BookCell.swift */,
 				8F33178B21C7FC10000B3369 /* Main.storyboard */,
 				8F33178E21C7FC20000B3369 /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 				8F33178A21C7FC10000B3369 /* ViewController.swift in Sources */,
 				8F3317B821C80286000B3369 /* ApplicationData.swift in Sources */,
 				8F33178821C7FC10000B3369 /* AppDelegate.swift in Sources */,
+				8F3317BA21C85A28000B3369 /* DetailBookViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

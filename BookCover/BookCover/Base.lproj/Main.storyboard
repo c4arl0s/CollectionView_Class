@@ -50,6 +50,7 @@
                                         <size key="customSize" width="140" height="180"/>
                                         <connections>
                                             <outlet property="bookCover" destination="KwZ-bG-x5B" id="Shp-rf-t9F"/>
+                                            <segue destination="A6z-Zh-hHn" kind="show" id="BFW-Qg-Vft"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -66,6 +67,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1076" y="130.88455772113943"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lcK-9y-yKk">
+            <objects>
+                <viewController id="A6z-Zh-hHn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ikB-cv-oW8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="pJ2-78-iZa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZQR-Am-z4A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1890" y="132"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="UeV-oN-2wA">
