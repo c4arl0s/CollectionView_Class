@@ -14,6 +14,7 @@
 		8F33179221C7FC20000B3369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F33179021C7FC20000B3369 /* LaunchScreen.storyboard */; };
 		8F33179D21C7FC20000B3369 /* BookCoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33179C21C7FC20000B3369 /* BookCoverTests.swift */; };
 		8F3317A821C7FC20000B3369 /* BookCoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3317A721C7FC20000B3369 /* BookCoverUITests.swift */; };
+		8F3317B621C80164000B3369 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3317B521C80164000B3369 /* BookCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8F3317A321C7FC20000B3369 /* BookCoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookCoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F3317A721C7FC20000B3369 /* BookCoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCoverUITests.swift; sourceTree = "<group>"; };
 		8F3317A921C7FC20000B3369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3317B521C80164000B3369 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				8F33178721C7FC10000B3369 /* AppDelegate.swift */,
 				8F33178921C7FC10000B3369 /* ViewController.swift */,
+				8F3317B521C80164000B3369 /* BookCell.swift */,
 				8F33178B21C7FC10000B3369 /* Main.storyboard */,
 				8F33178E21C7FC20000B3369 /* Assets.xcassets */,
 				8F33179021C7FC20000B3369 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F3317B621C80164000B3369 /* BookCell.swift in Sources */,
 				8F33178A21C7FC10000B3369 /* ViewController.swift in Sources */,
 				8F33178821C7FC10000B3369 /* AppDelegate.swift in Sources */,
 			);
