@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     // because collection views cells are custome cells, we have to define our own subclass of UIViewCell to manage their content. 
-    @IBOutlet weak var bookCover: UICollectionView!
+    @IBOutlet weak var collectionItems: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -54,7 +54,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="bookCover" destination="NEt-Hk-Aaw" id="IOF-Gm-opc"/>
+                        <outlet property="collectionItems" destination="NEt-Hk-Aaw" id="Ugq-eJ-MQ0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
