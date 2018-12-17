@@ -22,7 +22,7 @@ class ViewController: UIViewController, UICollectionViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        collectionItems.dataSource = self
     }
 
 
