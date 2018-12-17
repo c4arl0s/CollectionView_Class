@@ -12,6 +12,7 @@ class DetailBookViewController: UIViewController {
     @IBOutlet weak var bookCover: UIImageView!
     @IBOutlet weak var bookTitle: UILabel!
     @IBOutlet weak var bookAuthor: UILabel!
+    var selected: Int!
     
     override func viewDidLoad() {
         super.viewDidLoad()
