@@ -10,4 +10,8 @@ import UIKit
 
 class BookCell: UICollectionViewCell {
     @IBOutlet weak var bookCover: UIImageView!
+    
+    override func awakeFromNib() {
+        selectedBackgroundView?.backgroundColor = UIColor(red: 0.9, green: 0.9, blue: 0.9, alpha: 1)
+    }
 }
