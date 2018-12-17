@@ -43,6 +43,9 @@
                                             </subviews>
                                         </view>
                                         <size key="customSize" width="140" height="180"/>
+                                        <connections>
+                                            <outlet property="bookCover" destination="KwZ-bG-x5B" id="Shp-rf-t9F"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
