@@ -9,7 +9,10 @@
 import UIKit
 
 class DetailBookViewController: UIViewController {
-
+    @IBOutlet weak var bookCover: UIImageView!
+    @IBOutlet weak var bookTitle: UILabel!
+    @IBOutlet weak var bookAuthor: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

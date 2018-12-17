@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="w5n-Z7-oks">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="w5n-Z7-oks">
                                     <size key="itemSize" width="140" height="180"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -50,7 +50,7 @@
                                         <size key="customSize" width="140" height="180"/>
                                         <connections>
                                             <outlet property="bookCover" destination="KwZ-bG-x5B" id="Shp-rf-t9F"/>
-                                            <segue destination="A6z-Zh-hHn" kind="show" id="BFW-Qg-Vft"/>
+                                            <segue destination="A6z-Zh-hHn" kind="show" identifier="showDetails" id="BFW-Qg-Vft"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -68,20 +68,45 @@
             </objects>
             <point key="canvasLocation" x="1076" y="130.88455772113943"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail Book View Controller-->
         <scene sceneID="lcK-9y-yKk">
             <objects>
-                <viewController id="A6z-Zh-hHn" sceneMemberID="viewController">
+                <viewController id="A6z-Zh-hHn" customClass="DetailBookViewController" customModule="BookCover" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ikB-cv-oW8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jep-K7-Axo">
+                                <rect key="frame" x="67.5" y="101" width="240" height="305"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xlH-T0-l34">
+                                <rect key="frame" x="155" y="469" width="64" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olq-Hw-tci">
+                                <rect key="frame" x="155" y="556" width="64" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="pJ2-78-iZa"/>
                     </view>
+                    <connections>
+                        <outlet property="bookAuthor" destination="olq-Hw-tci" id="IMy-2O-7vS"/>
+                        <outlet property="bookCover" destination="jep-K7-Axo" id="ziH-pm-N2K"/>
+                        <outlet property="bookTitle" destination="xlH-T0-l34" id="el1-Jk-Bxg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZQR-Am-z4A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1890" y="132"/>
+            <point key="canvasLocation" x="1888.8" y="131.78410794602701"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="UeV-oN-2wA">
