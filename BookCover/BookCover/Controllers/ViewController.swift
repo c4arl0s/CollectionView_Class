@@ -28,7 +28,7 @@ class ViewController: UIViewController, UICollectionViewDataSource {
         collectionItems.dataSource = self
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "bookCellIdentifier" {
+        if segue.identifier == "showDetails" {
             let controller = segue.destination as! DetailBookViewController
                 if let paths = collectionItems.indexPathsForSelectedItems {
                     let selectedCell = paths[0].item
