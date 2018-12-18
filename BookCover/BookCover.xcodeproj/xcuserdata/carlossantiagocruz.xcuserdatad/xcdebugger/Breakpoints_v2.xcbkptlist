@@ -123,11 +123,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "Yes"
             filePath = "BookCover/Controllers/DetailBookViewController.swift"
-            timestampString = "566792940.185712"
+            timestampString = "566793704.2751991"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "19"
@@ -159,7 +159,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookCover/Controllers/ViewController.swift"
-            timestampString = "566792940.186667"
+            timestampString = "566793704.275292"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
@@ -184,7 +184,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "Yes"
             filePath = "BookCover/Controllers/ViewController.swift"
-            timestampString = "566792940.1867369"
+            timestampString = "566793704.275746"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"

@@ -36,5 +36,13 @@ class ViewController: UIViewController, UICollectionViewDataSource {
                 }
         }
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        if let paths = collectionItems.indexPathsForSelectedItems {
+            for path in paths {
+                collectionItems.deselectItem(at: path, animated: true)
+            }
+        }
+    }
 }
 
