@@ -16,15 +16,13 @@ class DetailBookViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let file = AppData.items[selected]
+        let file = appData.items[selected]
         bookCover.image = UIImage(named: file)
-        if let data = AppData.itemsData[file] {
+        if let data = appData.itemsData[file] {
             bookTitle.text = data[0]
             bookAuthor.text = data[1]
         }
-        
     }
-
     /*
     // MARK: - Navigation
 

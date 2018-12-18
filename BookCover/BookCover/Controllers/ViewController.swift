@@ -10,12 +10,12 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return AppData.items.count
+        return appData.items.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionItems.dequeueReusableCell(withReuseIdentifier: "bookCellIdentifier", for: indexPath) as! BookCell
-        let file = AppData.items[indexPath.item]
+        let file = appData.items[indexPath.item]
         cell.bookCover.image = UIImage(named: file)
         return cell
     }

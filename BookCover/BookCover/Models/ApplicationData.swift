@@ -41,5 +41,5 @@ struct ApplicationData {
     }
 }
 
-var AppData = ApplicationData()
+var appData = ApplicationData()
 
