@@ -139,7 +139,10 @@
 			isa = PBXGroup;
 			children = (
 				8F33178921C7FC10000B3369 /* ViewController.swift */,
+				8F3317B521C80164000B3369 /* BookCell.swift */,
 				8F3317B921C85A28000B3369 /* DetailBookViewController.swift */,
+				8F86B33521E00D3300379B5A /* HeaderView.swift */,
+				8F86B33721E00E0700379B5A /* FooterView.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -147,10 +150,7 @@
 		8F3317BC21C86C8E000B3369 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8F3317B521C80164000B3369 /* BookCell.swift */,
 				8F33178B21C7FC10000B3369 /* Main.storyboard */,
-				8F86B33521E00D3300379B5A /* HeaderView.swift */,
-				8F86B33721E00E0700379B5A /* FooterView.swift */,
 				8F33179021C7FC20000B3369 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
