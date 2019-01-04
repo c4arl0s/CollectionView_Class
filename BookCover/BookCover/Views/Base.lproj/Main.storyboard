@@ -71,7 +71,7 @@
                                         </label>
                                     </subviews>
                                 </collectionReusableView>
-                                <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="myFooter" id="QQT-sI-cQl">
+                                <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="myFooter" id="QQT-sI-cQl" customClass="FooterView" customModule="BookCover" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="230" width="375" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
