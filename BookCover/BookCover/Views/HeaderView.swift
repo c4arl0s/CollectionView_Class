@@ -9,5 +9,6 @@
 import UIKit
 
 class HeaderView: UICollectionReusableView {
-        
+    @IBOutlet weak var headerTitle: UILabel!
+    @IBOutlet weak var headerImage: UIImageView!
 }
