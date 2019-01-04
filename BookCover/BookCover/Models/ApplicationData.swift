@@ -10,7 +10,9 @@ import Foundation
 
 struct ApplicationData {
     var items: [[String]]
+    var categories: [String]
     var itemsData: [String: [String]]
+    
     
     init() {
         items = ["book1",
