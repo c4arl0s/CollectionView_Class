@@ -9,7 +9,7 @@
 import Foundation
 
 struct ApplicationData {
-    var items: [String]
+    var items: [[String]]
     var itemsData: [String: [String]]
     
     init() {
