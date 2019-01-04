@@ -15,18 +15,10 @@ struct ApplicationData {
     
     
     init() {
-        items = ["book1",
-                 "book2",
-                 "book3",
-                 "book4",
-                 "book5",
-                 "book6",
-                 "book7",
-                 "book8",
-                 "book9",
-                 "book10",
-                 "book11",
-                 "book12"]
+        categories = ["Fiction", "Non Fiction", "Text Books"]
+        items = [["book10","book11"],
+                 ["book1", "book3", "book5", "book6", "book7", "book8","book12"],
+                 ["book2","book4", "book9"]]
         itemsData = [
                      "book1":["Steve Jobs","Walter Isaacson"],
                      "book2":["jdskajdksa","dhsahjdsa"],
