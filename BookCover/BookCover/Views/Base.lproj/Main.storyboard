@@ -70,6 +70,10 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <connections>
+                                        <outlet property="headerImage" destination="DY5-aL-uZQ" id="kNt-lx-nsC"/>
+                                        <outlet property="headerTitle" destination="bhq-uq-P5n" id="Lae-9o-lcn"/>
+                                    </connections>
                                 </collectionReusableView>
                                 <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="myFooter" id="QQT-sI-cQl" customClass="FooterView" customModule="BookCover" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="230" width="375" height="50"/>
