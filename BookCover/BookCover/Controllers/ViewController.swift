@@ -45,7 +45,19 @@ class ViewController: UIViewController, UICollectionViewDataSource {
         }
     }
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        <#code#>
+        switch kind {
+        case UICollectionView.elementKindSectionHeader:
+            let headerView = collectionItems.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "myHeader", for: indexPath) as! HeaderView
+            headerView.headerTitle.text = "My Books"
+            headerView.headerImage.image = UIImage(named: "gradientTop")
+            return headerView
+        case UICollectionView.elementKindSectionFooter:
+            let footerView = collectionItems.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: "myFooter", for: indexPath) as! FooterView
+            footerView.footerImage.image = UIImage(named: "gradientBottom")
+            return footerView
+        default:
+            assert(false: "Error")
+        }
     }
 }
 
