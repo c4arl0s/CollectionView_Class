@@ -9,5 +9,5 @@
 import UIKit
 
 class FooterView: UICollectionReusableView {
-        
+    @IBOutlet weak var footerImage: UIImageView!
 }
