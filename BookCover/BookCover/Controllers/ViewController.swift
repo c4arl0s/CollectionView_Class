@@ -44,5 +44,8 @@ class ViewController: UIViewController, UICollectionViewDataSource {
             }
         }
     }
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        <#code#>
+    }
 }
 
