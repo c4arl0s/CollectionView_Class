@@ -56,7 +56,7 @@ class ViewController: UIViewController, UICollectionViewDataSource {
             footerView.footerImage.image = UIImage(named: "gradientBottom")
             return footerView
         default:
-            assert(false: "Error")
+            assert(false, "Error")
         }
     }
 }
