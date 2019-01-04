@@ -84,6 +84,9 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                     </subviews>
+                                    <connections>
+                                        <outlet property="footerImage" destination="xD0-Xa-uE3" id="gOe-mH-nve"/>
+                                    </connections>
                                 </collectionReusableView>
                             </collectionView>
                         </subviews>
