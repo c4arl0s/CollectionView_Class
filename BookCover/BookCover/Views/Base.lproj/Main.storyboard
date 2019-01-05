@@ -85,11 +85,16 @@
                                     <rect key="frame" x="0.0" y="230" width="375" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xD0-Xa-uE3">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xD0-Xa-uE3">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="xD0-Xa-uE3" secondAttribute="bottom" id="BMp-rQ-Z0W"/>
+                                        <constraint firstItem="xD0-Xa-uE3" firstAttribute="top" secondItem="QQT-sI-cQl" secondAttribute="top" id="Du2-FL-LNI"/>
+                                        <constraint firstItem="xD0-Xa-uE3" firstAttribute="leading" secondItem="QQT-sI-cQl" secondAttribute="leading" id="LJi-hZ-Yqo"/>
+                                        <constraint firstAttribute="trailing" secondItem="xD0-Xa-uE3" secondAttribute="trailing" id="dTf-Bu-XZE"/>
+                                    </constraints>
                                     <connections>
                                         <outlet property="footerImage" destination="xD0-Xa-uE3" id="gOe-mH-nve"/>
                                     </connections>
