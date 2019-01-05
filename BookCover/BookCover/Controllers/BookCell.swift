@@ -13,6 +13,7 @@ class BookCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        // when is selected the view turns the background color to red
         selectedBackgroundView = UIView()
         selectedBackgroundView?.backgroundColor = .red
     }
