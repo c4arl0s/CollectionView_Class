@@ -33,7 +33,7 @@ class ViewController: UIViewController, UICollectionViewDataSource {
         // FlowLayout
         collectionItems.backgroundColor = UIColor.white
         let layout = collectionItems.collectionViewLayout as! UICollectionViewFlowLayout
-        layout.sectionInset = UIEdgeInsets(top: 25, left: 20, bottom: 25, right: 20)
+        layout.sectionInset = UIEdgeInsets(top: 40, left: 20, bottom: 25, right: 20)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetails" {
