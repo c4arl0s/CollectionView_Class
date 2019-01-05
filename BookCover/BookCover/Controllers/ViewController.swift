@@ -32,7 +32,7 @@ class ViewController: UIViewController, UICollectionViewDataSource {
         collectionItems.dataSource = self
         // FlowLayout
         collectionItems.backgroundColor = UIColor.white
-        
+        let layout = collectionItems.collectionViewLayout as! UICollectionViewFlowLayout
         
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
