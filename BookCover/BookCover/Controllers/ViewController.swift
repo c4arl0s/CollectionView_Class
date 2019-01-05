@@ -29,6 +29,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // asign the dataSource of collectionItems to this Viewcontroller
         collectionItems.dataSource = self
         // FlowLayout
         collectionItems.backgroundColor = UIColor.white
