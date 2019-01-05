@@ -68,11 +68,11 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             assert(false, "Error")
         }
     }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        var width: CGFloat = 140
-        var height: CGFloat = 180
-        let file = appData.items[indexPath.section][indexPath.item]
-        
-    }
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+//        var width: CGFloat = 140
+//        var height: CGFloat = 180
+//        let file = appData.items[indexPath.section][indexPath.item]
+//        
+//    }
 }
 
