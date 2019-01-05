@@ -11,3 +11,7 @@ With Sections
 <p align="center">
     <img src="https://github.com/carlos-santiago-2017/ImplementingCollectionViews/blob/master/withSections.png" width="375">
 </p>
+
+<p align="center">
+    <img src="https://github.com/carlos-santiago-2017/ImplementingCollectionViews/blob/master/insets.png" width="375">
+</p>
