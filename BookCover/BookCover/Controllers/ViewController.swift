@@ -30,6 +30,10 @@ class ViewController: UIViewController, UICollectionViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionItems.dataSource = self
+        // FlowLayout
+        collectionItems.backgroundColor = UIColor.white
+        
+        
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetails" {
