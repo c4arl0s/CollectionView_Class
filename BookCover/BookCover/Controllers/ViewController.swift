@@ -13,7 +13,9 @@ class ViewController: UIViewController, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return appData.items[section].count
     }
-    
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return appData.categories.count
+    }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionItems.dequeueReusableCell(withReuseIdentifier: "bookCellIdentifier", for: indexPath) as! BookCell
         let file = appData.items[indexPath.section][indexPath.item]
