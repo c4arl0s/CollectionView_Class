@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, UICollectionViewDataSource {
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return appData.items.count
     }
@@ -59,5 +60,7 @@ class ViewController: UIViewController, UICollectionViewDataSource {
             assert(false, "Error")
         }
     }
+    
+    
 }
 
