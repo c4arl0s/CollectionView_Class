@@ -16,11 +16,11 @@ class DetailBookViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let file = appData.items[selected]
-        bookCover.image = UIImage(named: file)
-        if let data = appData.itemsData[file] {
-            bookTitle.text = data[0]
-            bookAuthor.text = data[1]
-        }
+//        let file = appData.items[selected]
+//        bookCover.image = UIImage(named: file)
+//        if let data = appData.itemsData[file] {
+//            bookTitle.text = data[0]
+//            bookAuthor.text = data[1]
+//        }
     }
 }
