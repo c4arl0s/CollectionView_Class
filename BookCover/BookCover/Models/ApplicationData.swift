@@ -21,17 +21,17 @@ struct ApplicationData {
                  ["book2","book4", "book9"]]
         itemsData = [
                      "book1":["Steve Jobs","Walter Isaacson"],
-                     "book2":["jdskajdksa","dhsahjdsa"],
-                     "book3":["jdsajdka","hdjsahdjsa"],
-                     "book4":["djaskdjksa","dhjsahdja"],
-                     "book5":["dhjsadhjsa","dhjsahd"],
-                     "book6":["yeuwqyu","bcxnzbc"],
-                     "book7":["eyuyu","jdsahj"],
-                     "book8":["djsahjd","udwq"],
-                     "book9":["ajdkasjkd","djasjdksa"],
-                     "book10":["djsajdka","jdsakjkd"],
-                     "book11":["djskajdkas","dsajdksajk"],
-                     "book12":["djksajdka","jdksajkd"] ]
+                     "book2":["This ","that"],
+                     "book3":["those","there"],
+                     "book4":["no matter","the info"],
+                     "book5":["info","now"],
+                     "book6":["those","pip"],
+                     "book7":["info","more info"],
+                     "book8":["info","more"],
+                     "book9":["more","info"],
+                     "book10":["more","more"],
+                     "book11":["fish","go back"],
+                     "book12":["left","old"] ]
     }
 }
 
