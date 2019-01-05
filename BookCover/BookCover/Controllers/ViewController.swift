@@ -15,6 +15,7 @@ class ViewController: UIViewController, UICollectionViewDataSource {
     }
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return appData.categories.count
+        // Sections are identified with a consecutive index starting from 0. The data has to observe this pattern, and this is why in the model we use a multidimensional array to store the values
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionItems.dequeueReusableCell(withReuseIdentifier: "bookCellIdentifier", for: indexPath) as! BookCell
