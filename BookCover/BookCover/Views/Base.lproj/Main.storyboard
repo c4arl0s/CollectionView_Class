@@ -61,15 +61,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhq-uq-P5n">
-                                            <rect key="frame" x="131" y="11" width="113" height="29"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhq-uq-P5n">
+                                            <rect key="frame" x="159" y="10.5" width="57" height="29"/>
                                             <color key="backgroundColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="bhq-uq-P5n" firstAttribute="centerX" secondItem="Aof-43-vyN" secondAttribute="centerX" id="Go4-9m-jeb"/>
+                                        <constraint firstItem="bhq-uq-P5n" firstAttribute="centerY" secondItem="Aof-43-vyN" secondAttribute="centerY" id="Vdl-3p-GN5"/>
+                                    </constraints>
                                     <connections>
                                         <outlet property="headerImage" destination="DY5-aL-uZQ" id="kNt-lx-nsC"/>
                                         <outlet property="headerTitle" destination="bhq-uq-P5n" id="Lae-9o-lcn"/>
