@@ -57,9 +57,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DY5-aL-uZQ">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DY5-aL-uZQ">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhq-uq-P5n">
                                             <rect key="frame" x="159" y="10.5" width="57" height="29"/>
@@ -71,7 +70,11 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="bhq-uq-P5n" firstAttribute="centerX" secondItem="Aof-43-vyN" secondAttribute="centerX" id="Go4-9m-jeb"/>
+                                        <constraint firstItem="DY5-aL-uZQ" firstAttribute="top" secondItem="Aof-43-vyN" secondAttribute="top" id="Ks1-o5-8zg"/>
                                         <constraint firstItem="bhq-uq-P5n" firstAttribute="centerY" secondItem="Aof-43-vyN" secondAttribute="centerY" id="Vdl-3p-GN5"/>
+                                        <constraint firstAttribute="bottom" secondItem="DY5-aL-uZQ" secondAttribute="bottom" id="W3n-SF-eoL"/>
+                                        <constraint firstAttribute="trailing" secondItem="DY5-aL-uZQ" secondAttribute="trailing" id="bAJ-21-BYW"/>
+                                        <constraint firstItem="DY5-aL-uZQ" firstAttribute="leading" secondItem="Aof-43-vyN" secondAttribute="leading" id="yYh-CQ-BFv"/>
                                     </constraints>
                                     <connections>
                                         <outlet property="headerImage" destination="DY5-aL-uZQ" id="kNt-lx-nsC"/>
