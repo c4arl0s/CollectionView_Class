@@ -18,9 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="NEt-Hk-Aaw">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="NEt-Hk-Aaw">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="w5n-Z7-oks">
                                     <size key="itemSize" width="140" height="180"/>
@@ -92,6 +91,16 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NEt-Hk-Aaw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2cY-EY-IUB"/>
+                            <constraint firstItem="NEt-Hk-Aaw" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="3lR-Ee-L0z"/>
+                            <constraint firstItem="NEt-Hk-Aaw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9Db-m2-2yU"/>
+                            <constraint firstItem="NEt-Hk-Aaw" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Gkq-AZ-SRX"/>
+                            <constraint firstItem="NEt-Hk-Aaw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Uyt-O9-Trr"/>
+                            <constraint firstItem="NEt-Hk-Aaw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="YnS-d0-JPP"/>
+                            <constraint firstItem="NEt-Hk-Aaw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="oWN-Pz-ZVC"/>
+                            <constraint firstItem="NEt-Hk-Aaw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="q0z-zG-8Ei"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="8Qj-Aa-4by"/>
