@@ -63,7 +63,5 @@ class ViewController: UIViewController, UICollectionViewDataSource {
             assert(false, "Error")
         }
     }
-    
-    
 }
 
