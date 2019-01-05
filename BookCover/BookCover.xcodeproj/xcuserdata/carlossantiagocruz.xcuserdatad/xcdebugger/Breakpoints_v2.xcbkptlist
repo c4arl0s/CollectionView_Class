@@ -127,11 +127,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "Yes"
             filePath = "BookCover/Controllers/DetailBookViewController.swift"
-            timestampString = "568334759.186362"
+            timestampString = "568365104.977061"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Actions>
@@ -152,11 +152,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "Yes"
             filePath = "BookCover/Controllers/ViewController.swift"
-            timestampString = "568334759.186442"
+            timestampString = "568365104.977157"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
             <Actions>
@@ -177,12 +177,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "Yes"
             filePath = "BookCover/Controllers/ViewController.swift"
-            timestampString = "568334759.186905"
+            timestampString = "568365104.9776599"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
             <Actions>
                <BreakpointActionProxy

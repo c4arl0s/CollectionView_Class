@@ -52,7 +52,7 @@ class ViewController: UIViewController, UICollectionViewDataSource {
         switch kind {
         case UICollectionView.elementKindSectionHeader:
             let headerView = collectionItems.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "myHeader", for: indexPath) as! HeaderView
-            headerView.headerTitle.text = "My Books"
+            headerView.headerTitle.text = appData.categories[indexPath.section]
             headerView.headerImage.image = UIImage(named: "gradientTop")
             return headerView
         case UICollectionView.elementKindSectionFooter:
