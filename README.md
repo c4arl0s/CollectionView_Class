@@ -24,4 +24,14 @@ Implementing Collection Views to show a Book Cover
 
 - Collection Views include by default a subclass called UICollectionViewFlowLayout that provides a very customizable grid-like layout that is usually more than enough for our projects. The layout is called Flow
 
+# Collection View Protocols
+
+- UICollectionViewDelegate
+- UICollectionViewDataSource
+
+# Layout Protocol
+
+- The Flow layout can also designate a delegate to get specific values for individual cells.
+- The methods are defined in the UICollectionViewDelegate-FlowLayout protocol.
+
 
