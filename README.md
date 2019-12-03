@@ -41,4 +41,22 @@ Implementing Collection Views to show a Book Cover
 - The Flow layout can also designate a delegate to get specific values for individual cells.
 - The methods are defined in the UICollectionViewDelegate-FlowLayout protocol.
 
+# Implementing Collection Views (process to configure)
+
+- Implement delegate methods to report the number of cells in the section (only one by default), and provide the cells.
+- Get the prototype cell calling the dequeueReusableCell() method with the identifier assigned to the cell from the Attributes Inspector panel ("myCell" in this example), cast it as our subclass, and then configure the elements in the cell.
+
+# ¿what is the difference from tableViews ?
+
+- The indexPath structure includes three properties: section, row, and item.
+- The section and row properties are used to identify the sections and each cell on a Table View, but Collection views considere a cell to be an item, not an entire row, and therefore they use the section and item properties instead.
+
+# What happened when we add a Collection View to the storyboard ?
+
+- The system creates an UICollectionViewFlowLayout object and assigns it to the collectionView-Layout property of the collection view's object.
+- This layout object is configured by default to position the cells in a grid. The result is shown in the following figure:
+
+
+
+
 
