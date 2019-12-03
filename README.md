@@ -51,7 +51,7 @@ Implementing Collection Views to show a Book Cover
 - The indexPath structure includes three properties: section, row, and item.
 - The section and row properties are used to identify the sections and each cell on a Table View, but Collection views considere a cell to be an item, not an entire row, and therefore they use the section and item properties instead.
 
-# What happened when we add a Collection View to the storyboard ?
+# What happened when we add a Collection View (drag and drop) to the storyboard ?
 
 - The system creates an UICollectionViewFlowLayout object and assigns it to the collectionView-Layout property of the collection view's object.
 - This layout object is configured by default to position the cells in a grid. The result is shown in the following figure:
