@@ -56,6 +56,8 @@ Implementing Collection Views to show a Book Cover
 - The system creates an UICollectionViewFlowLayout object and assigns it to the collectionView-Layout property of the collection view's object.
 - This layout object is configured by default to position the cells in a grid. The result is shown in the following figure:
 
+# Header and Footer Sizing
+
 
 
 
