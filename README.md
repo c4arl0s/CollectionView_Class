@@ -1,7 +1,7 @@
 # ImplementingCollectionViews
 Implementing Collection Views to show a Book Cover
 
-<<<<<<< HEAD
+# ApplicationData.swift
 ``` swift
 //
 //  ApplicationData.swift
@@ -47,6 +47,8 @@ struct ApplicationData {
 
 var appData = ApplicationData()
 ```
+
+# ViewController.swift
 
 ``` swift
 //
