@@ -114,10 +114,6 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 }
 ```
 
-
-```
-
-
 <p align="center">
     <img src="https://github.com/carlos-santiago-2017/ImplementingCollectionViews/blob/master/ImplementingCollectionViews.png" width="375">
 </p>
